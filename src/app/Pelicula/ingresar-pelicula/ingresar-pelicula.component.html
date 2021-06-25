@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h1>Ingresar Pelicuala</h1>
+        </div>
+        <div>
+            <form action=" ">
+                <div class="form-group">
+                    <label for="">Nombre</label>
+                    <input type="text" class="form-control" [(ngModel)]="pelicula.nombre" name="nombre">
+
+                </div>
+                <div class="form-group">
+                    <label for="">Minutos</label>
+                    <input type="text" class="form-control" [(ngModel)]="pelicula.minutos" name="apellido">
+
+                </div>
+                <div class="form-group">
+                    <label for="">Fecha de Estreno</label> 
+                    <input type="text" class="form-control" [(ngModel)]="pelicula.fechaestreno" name="correo">
+
+                </div>
+                <div class="form-group">
+                    <label for="">Categoria</label>
+                    <input type="text" class="form-control" [(ngModel)]="pelicula.categoria" name="telefono">
+
+                </div>
+
+                <div class="form-group">
+                   <button (click) = "Guardar()" class="btn btn-danger">Guardar</button>
+
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</div>
