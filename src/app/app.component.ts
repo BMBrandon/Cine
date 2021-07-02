@@ -18,10 +18,10 @@ export class AppComponent {
     this.router.navigate(["pelicula"])
   }
   Salas(){
-    this.router.navigate(["vehiculo"])
+    this.router.navigate(["sala"])
   }
   Entradas(){
-    this.router.navigate(["vehiculo"])
+    this.router.navigate(["entrada"])
   }
   Proyecciones(){
     this.router.navigate(["vehiculo"])

@@ -13,6 +13,17 @@ import { PeliculaComponent } from './Pelicula/pelicula/pelicula.component';
 import { IngresarPeliculaComponent } from './Pelicula/ingresar-pelicula/ingresar-pelicula.component';
 import { ListarPeliculaComponent } from './Pelicula/listar-pelicula/listar-pelicula.component';
 import { ModificarPeliculaComponent } from './Pelicula/modificar-pelicula/modificar-pelicula.component';
+import { EntradaComponent } from './Entrada/entrada/entrada.component';
+import { IngresarEntradaComponent } from './Entrada/ingresar-entrada/ingresar-entrada.component';
+import { ListarEntradaComponent } from './Entrada/listar-entrada/listar-entrada.component';
+import { ModificarEntradaComponent } from './Entrada/modificar-entrada/modificar-entrada.component';
+import { SalaComponent } from './Sala/sala/sala.component';
+import { IngresarSalaComponent } from './Sala/ingresar-sala/ingresar-sala.component';
+import { ListarSalaComponent } from './Sala/listar-sala/listar-sala.component';
+import { ModificarSalaComponent } from './Sala/modificar-sala/modificar-sala.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -25,7 +36,19 @@ import { ModificarPeliculaComponent } from './Pelicula/modificar-pelicula/modifi
     PeliculaComponent,
     IngresarPeliculaComponent,
     ListarPeliculaComponent,
-    ModificarPeliculaComponent
+    ModificarPeliculaComponent,
+
+    EntradaComponent,
+    IngresarEntradaComponent,
+    ListarEntradaComponent,
+    ModificarEntradaComponent,
+
+    SalaComponent,
+    IngresarSalaComponent,
+    ListarSalaComponent,
+    ModificarSalaComponent
+
+
   ],
   imports: [
     BrowserModule,
